@@ -46,7 +46,7 @@ class DisplayProductData extends Component {
                   Add to order
                 </button>
                 {parseInt(this.state.message.id) === item.id && (
-                  <p>{this.state.message.message}</p>
+                  <p className='message'>{this.state.message.message}</p>
                 )}
               </div>
             );
